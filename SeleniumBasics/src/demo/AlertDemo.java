@@ -19,7 +19,7 @@ public class AlertDemo {
 		Thread.sleep(3000);
 		driver.switchTo().alert().dismiss();
 		
-		//driver.findElement(By.id("promtButton")).click();
+		
 		
 		driver.close();
 	}
